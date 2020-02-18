@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    font-size: 1.1em;
+}
+th,td{
+    border-bottom: 1px solid #d3d3d3;
+}
+.edit{
+    color:green;
+}
+.delete{
+    color:red;
+}
+.publish{
+    color:blue;
+}
+.edit:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.delete:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.publish:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
